@@ -15,6 +15,9 @@
 		2651D24A2731C1FC0073CD6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2651D2482731C1FC0073CD6B /* LaunchScreen.storyboard */; };
 		2651D2552731C1FC0073CD6B /* BenoCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651D2542731C1FC0073CD6B /* BenoCardTests.swift */; };
 		2651D2602731C1FC0073CD6B /* BenoCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651D25F2731C1FC0073CD6B /* BenoCardUITests.swift */; };
+		2651D2742731C7910073CD6B /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2651D2722731C7910073CD6B /* Montserrat-Regular.ttf */; };
+		2651D2752731C7910073CD6B /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2651D2732731C7910073CD6B /* OFL.txt */; };
+		2651D27A2731D9640073CD6B /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651D2792731D9640073CD6B /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		2651D25B2731C1FC0073CD6B /* BenoCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenoCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2651D25F2731C1FC0073CD6B /* BenoCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenoCardUITests.swift; sourceTree = "<group>"; };
 		2651D2612731C1FC0073CD6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2651D2722731C7910073CD6B /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		2651D2732731C7910073CD6B /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		2651D2792731D9640073CD6B /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		2651D2312731C1F10073CD6B = {
 			isa = PBXGroup;
 			children = (
+				2651D2712731C75F0073CD6B /* Fonts */,
 				2651D23C2731C1F20073CD6B /* BenoCard */,
 				2651D2532731C1FC0073CD6B /* BenoCardTests */,
 				2651D25E2731C1FC0073CD6B /* BenoCardUITests */,
@@ -102,6 +109,7 @@
 				2651D23D2731C1F20073CD6B /* AppDelegate.swift */,
 				2651D23F2731C1F20073CD6B /* SceneDelegate.swift */,
 				2651D2412731C1F20073CD6B /* ContentView.swift */,
+				2651D2792731D9640073CD6B /* InfoView.swift */,
 				2651D2432731C1FC0073CD6B /* Assets.xcassets */,
 				2651D2482731C1FC0073CD6B /* LaunchScreen.storyboard */,
 				2651D24B2731C1FC0073CD6B /* Info.plist */,
@@ -134,6 +142,15 @@
 				2651D2612731C1FC0073CD6B /* Info.plist */,
 			);
 			path = BenoCardUITests;
+			sourceTree = "<group>";
+		};
+		2651D2712731C75F0073CD6B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2651D2722731C7910073CD6B /* Montserrat-Regular.ttf */,
+				2651D2732731C7910073CD6B /* OFL.txt */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2651D2752731C7910073CD6B /* OFL.txt in Resources */,
+				2651D2742731C7910073CD6B /* Montserrat-Regular.ttf in Resources */,
 				2651D24A2731C1FC0073CD6B /* LaunchScreen.storyboard in Resources */,
 				2651D2472731C1FC0073CD6B /* Preview Assets.xcassets in Resources */,
 				2651D2442731C1FC0073CD6B /* Assets.xcassets in Resources */,
@@ -266,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2651D27A2731D9640073CD6B /* InfoView.swift in Sources */,
 				2651D23E2731C1F20073CD6B /* AppDelegate.swift in Sources */,
 				2651D2402731C1F20073CD6B /* SceneDelegate.swift in Sources */,
 				2651D2422731C1F20073CD6B /* ContentView.swift in Sources */,
